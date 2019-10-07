@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" output="bin" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/core.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-core-5.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="lib/javax.persistence-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="lib/hsqldb-2.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jackcess-2.1.11.jar"/>
 	<classpathentry kind="output" path="resources/code"/>
 </classpath>
